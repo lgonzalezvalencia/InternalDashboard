@@ -20,20 +20,20 @@ function HamburguerMenu({ setMenuVisible }: HamburguerMenuProps) {
         <nav>
           <ul className="menu-links">
             <li className="nav-link">
+              <Link to="/prospects" onClick={handleLinkClick}>
+                <div className="nav-element">
+                  <p className="material-symbols-outlined ham-icon">groups</p>
+                  <p className="nav-text">Prospects Management</p>
+                </div>
+              </Link>
+            </li>
+            <li className="nav-link">
               <Link to="/roster" onClick={handleLinkClick}>
                 <div className="nav-element">
                   <p className="material-symbols-outlined ham-icon">
                     engineering
                   </p>
                   <p className="nav-text">Roster Management</p>
-                </div>
-              </Link>
-            </li>
-            <li className="nav-link">
-              <Link to="/prospects" onClick={handleLinkClick}>
-                <div className="nav-element">
-                  <p className="material-symbols-outlined ham-icon">groups</p>
-                  <p className="nav-text">Prospects Management</p>
                 </div>
               </Link>
             </li>

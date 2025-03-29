@@ -3,10 +3,11 @@
   position: absolute;
   display: flex;
   flex-direction: column;
-  width: 25vw;
+  width: 21vw;
   height: 100vh;
   gap: 1rem;
   padding-left: 0.5rem;
+  padding-right: 0.5rem;
   border: solid var(--dark-comp) 1px;
   border-left: none;
   border-radius: 4px;
@@ -56,7 +57,7 @@ li .material-symbols-outlined {
 }
 @media (max-width: 950px) {
   .main-ham-menu-container {
-    width: 80vw;
+    width: 100vw;
   }
   .nav-link {
     height: 4rem;
